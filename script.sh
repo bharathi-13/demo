@@ -1,11 +1,11 @@
 #!/bin/bash
 
 
-users=("user1" "user2" "user3")
+groups=("group1" "group2" "group3")
 
-for user in $users
+for group in $groups
 do
-    useradd $user
+    groupadd $group
 done
 
 
