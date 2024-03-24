@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('error') {
+    stage('hello') {
       agent any
       environment {
         hello = ''
